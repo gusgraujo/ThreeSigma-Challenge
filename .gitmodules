@@ -1,3 +1,9 @@
 [submodule "alo/lib/forge-std"]
 	path = alo/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "ThreeSigma-Challenge/lib/forge-std"]
+	path = ThreeSigma-Challenge/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "ThreeSigma-Challenge/lib/openzeppelin-contracts"]
+	path = ThreeSigma-Challenge/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
