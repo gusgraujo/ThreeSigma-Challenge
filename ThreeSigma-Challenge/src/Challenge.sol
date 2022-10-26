@@ -18,8 +18,9 @@ contract Challenge {
      public 
      payable
      {
+        uint balance = address(this).balance;
         require(block.timestamp > (timeTrack + 1 days));
-        (bool sent, ) = msg.sender.call{value: address(this).balance}("");
-
+        require(balance > 0 wei, "Error! No Balance to withdraw"); 
+        (bool sent, ) = winner.call{value: balance}("");
     }
 }
