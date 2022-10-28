@@ -2,15 +2,15 @@ pragma solidity 0.8.13;
 
 
 import "forge-std/Test.sol";
-import '../src/ThreeSigmaChallenge.sol';
+import '../src/ThreeSigmaNFT.sol';
 
 
 contract NFT is Test {
-    ThreeSigmaChallengeToken nftToken;
+    ThreeSigmaNFT nftToken;
     address nftId;
 
     function setUp() public {
-        nftToken = new ThreeSigmaChallengeToken();
+        nftToken = new ThreeSigmaNFT();
     }
 
     function testMint() public {

@@ -822,8 +822,8 @@
       }
     },
     "src/Challenge.sol": {
-      "lastModificationDate": 1666906783258,
-      "contentHash": "198068abd12910e78e69aaa689943234",
+      "lastModificationDate": 1666965592440,
+      "contentHash": "d436fb650235847497cc4a008113ebe3",
       "sourceName": "src/Challenge.sol",
       "solcConfig": {
         "settings": {
@@ -861,10 +861,10 @@
         }
       }
     },
-    "src/ThreeSigmaChallenge.sol": {
-      "lastModificationDate": 1666959207983,
-      "contentHash": "f8221c251c036ec21fc4b158cf19919c",
-      "sourceName": "src/ThreeSigmaChallenge.sol",
+    "src/ThreeSigmaNFT.sol": {
+      "lastModificationDate": 1666965742430,
+      "contentHash": "a74f1f84d0813064a696aeb76812481a",
+      "sourceName": "src/ThreeSigmaNFT.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -908,14 +908,14 @@
       ],
       "versionRequirement": "^0.8.13",
       "artifacts": {
-        "ThreeSigmaChallenge": {
-          "0.8.13+commit.abaa5c0e.Windows.msvc": "ThreeSigmaChallenge.sol\\ThreeSigmaChallenge.json"
+        "ThreeSigmaNFT": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "ThreeSigmaNFT.sol\\ThreeSigmaNFT.json"
         }
       }
     },
     "test/Challenge.t.sol": {
-      "lastModificationDate": 1666907069918,
-      "contentHash": "5132e784be6b11fdaa5a779838fa940a",
+      "lastModificationDate": 1666964315775,
+      "contentHash": "0d642016dd9bd77b5e72db839f29424d",
       "sourceName": "test/Challenge.t.sol",
       "solcConfig": {
         "settings": {
@@ -963,8 +963,8 @@
       }
     },
     "test/NFT.t.sol": {
-      "lastModificationDate": 1666959379470,
-      "contentHash": "8bc1f52fafe5db26ec3ce9365daba126",
+      "lastModificationDate": 1666965751201,
+      "contentHash": "e1a78981f39391f64cedbd3e46aa62e0",
       "sourceName": "test/NFT.t.sol",
       "solcConfig": {
         "settings": {
@@ -1013,7 +1013,7 @@
         "lib/openzeppelin-contracts/contracts/utils/introspection/ERC165.sol",
         "lib/openzeppelin-contracts/contracts/utils/introspection/IERC165.sol",
         "lib/openzeppelin-contracts/contracts/utils/math/Math.sol",
-        "src\\ThreeSigmaChallenge.sol"
+        "src\\ThreeSigmaNFT.sol"
       ],
       "versionRequirement": "=0.8.13",
       "artifacts": {
