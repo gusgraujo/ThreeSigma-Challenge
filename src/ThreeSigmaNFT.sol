@@ -23,5 +23,4 @@ contract ThreeSigmaNFT is ERC721, Ownable {
     function getToken(address owner) external view returns(uint) {
         return ownershipRecord[owner];
     }
-
 }
