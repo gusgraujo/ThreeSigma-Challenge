@@ -1,17 +1,18 @@
 pragma solidity ^0.8.13;
 
-import "forge-std/Test.sol";
 import "../src/Challenge.sol";
+import "forge-std/Test.sol";
 
 contract ChallengeTest is Test {
-    address challenge;
+    Challenge challenge;
+    address nftToken;
 
     function setUp() public {
-        challenge = address(new Challenge());
+        challenge = new Challenge(nftToken);
     }
 
     function testDepositFunds() public {
-        Challenge(challenge).depositFund{value: 1 ether}();
+        challenge.depositFund{value: 1 ether}();
         assertEq(address(challenge).balance, 1 ether);
     }
 

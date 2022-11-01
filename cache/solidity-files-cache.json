@@ -822,8 +822,8 @@
       }
     },
     "src/Challenge.sol": {
-      "lastModificationDate": 1666965592440,
-      "contentHash": "d436fb650235847497cc4a008113ebe3",
+      "lastModificationDate": 1666973422796,
+      "contentHash": "bf4fa21831a57712aec8e813f79dc67a",
       "sourceName": "src/Challenge.sol",
       "solcConfig": {
         "settings": {
@@ -858,12 +858,15 @@
       "artifacts": {
         "Challenge": {
           "0.8.13+commit.abaa5c0e.Windows.msvc": "Challenge.sol\\Challenge.json"
+        },
+        "IERC721": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "Challenge.sol\\IERC721.json"
         }
       }
     },
     "src/ThreeSigmaNFT.sol": {
-      "lastModificationDate": 1666965742430,
-      "contentHash": "a74f1f84d0813064a696aeb76812481a",
+      "lastModificationDate": 1666972820200,
+      "contentHash": "243cef469d35096929a65a6a3f476e3d",
       "sourceName": "src/ThreeSigmaNFT.sol",
       "solcConfig": {
         "settings": {
@@ -914,8 +917,8 @@
       }
     },
     "test/Challenge.t.sol": {
-      "lastModificationDate": 1666964315775,
-      "contentHash": "0d642016dd9bd77b5e72db839f29424d",
+      "lastModificationDate": 1667232176557,
+      "contentHash": "b1a656ccc4945fe386eb116924ff2d3d",
       "sourceName": "test/Challenge.t.sol",
       "solcConfig": {
         "settings": {
@@ -963,8 +966,8 @@
       }
     },
     "test/NFT.t.sol": {
-      "lastModificationDate": 1666965751201,
-      "contentHash": "e1a78981f39391f64cedbd3e46aa62e0",
+      "lastModificationDate": 1667231554646,
+      "contentHash": "263ab5fde8b40005709053c90310c199",
       "sourceName": "test/NFT.t.sol",
       "solcConfig": {
         "settings": {

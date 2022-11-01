@@ -21,19 +21,19 @@ interface IERC721{
 
 contract Challenge {
     
-    uint timeTrackFunds;
-    uint timeTrackNFT;
-    address winnerFunds;
-    address winnerNFT;
-    uint[] stake;
-    uint stakeCounter;
-    address nftAdress;
+    uint public timeTrackFunds; // public time track to the fund competition
+    uint public timeTrackNFT; // public time track to the NFT competition
+    address public winnerFunds; //public winner to the fund competition
+    address public winnerNFT; //public winner to the NFT competition
+    uint[] public stake; // array to stake the nft of the players
+    uint stakeCounter; // number of stake
+    address nftAdress; // addres of the ERC-721
 
     constructor (address _nftAddress){
         nftAdress = _nftAddress;
-        stakeCounter = 0;
+        stakeCounter = 0; // sets the stake counter to 0
     }
-
+    //This function is responsable for receive the funds from the player, allocate the right player as the winner and set the time for receive the funds to zero.
     function depositFund()
      public 
      payable
@@ -44,7 +44,7 @@ contract Challenge {
         timeTrackFunds = block.timestamp;
         winnerFunds = msg.sender;
     }
-
+    //This function is responsable for receive the Non-Fungible-token from the player and stake, also allocates the right player as the winner and set the time for receive the NFT's to zero.
     function depositToken(uint _tokenId)
      public
     {   
@@ -55,7 +55,7 @@ contract Challenge {
         winnerNFT = msg.sender;
         IERC721(nftAdress).safeTransferFrom(msg.sender, address(this), _tokenId,"");
     }
-
+    //This function is responsable for send the funds to the winner player.
     function getRewardFund()  
      public 
      payable
@@ -66,7 +66,7 @@ contract Challenge {
         require(balance > 0 wei, "No balance available"); 
         (bool sent, ) = winnerFunds.call{value: balance}("");
     }
-
+    //This function is responsable for send the NFT's to the winner player.
     function getRewardToken()
      public
     {
