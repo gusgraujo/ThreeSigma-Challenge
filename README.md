@@ -40,4 +40,16 @@ You will need to study about these topics in order to complete the smart contrac
 
 ## Resolution documentation:
 
+Challenge smart contract functions:
+
+
+
+|  Functions |  Description | Modifiers  | Arguments  
+|---|---|---|---|
+| depositFund  | This function is responsable for receive the funds from the player, allocate the right player as the winner and set the time for receive the funds to zero.  |    -public <br> -payable  | -------  |
+| depositToken | This function is responsable for receive the Non-Fungible-token from the player and stake, also allocates the right player as the winner and set the time for receive the NFT's to zero.  | -public  |  _tokenId(the token ID of the deposited NFT) |
+| getRewardFund  |   |   |   |
+| getRewardToken  |   |   |   |
+
+
 
