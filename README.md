@@ -47,9 +47,9 @@ Challenge smart contract functions:
 |  Functions |  Description | Modifiers  | Arguments  
 |---|---|---|---|
 | depositFund  | This function is responsable for receive the funds from the player, allocate the right player as the winner and set the time for receive the funds to zero.  |    -public <br> -payable  | -------  |
-| depositToken | This function is responsable for receive the Non-Fungible-token from the player and stake, also allocates the right player as the winner and set the time for receive the NFT's to zero.  | -public  |  _tokenId(the token ID of the deposited NFT) |
-| getRewardFund  |   |   |   |
-| getRewardToken  |   |   |   |
+| depositToken | This function is responsable for receive the Non-Fungible-token from the player and stake, also allocates the right player as the winner and set the time for receive the NFT's to zero.  | -public  | uint _tokenId(the token ID of the deposited NFT) |
+| getRewardFund  |  This function is responsable for send the funds to the winner player. | -public <br> -payable  | ------- |
+| getRewardToken  |  This function is responsable for send the NFT's to the winner player.  | -public  | -------  |
 
 
 
