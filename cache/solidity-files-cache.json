@@ -822,8 +822,8 @@
       }
     },
     "src/Challenge.sol": {
-      "lastModificationDate": 1666973422796,
-      "contentHash": "bf4fa21831a57712aec8e813f79dc67a",
+      "lastModificationDate": 1667327104076,
+      "contentHash": "3bbbafa2081211325c1ee2e6337e4cb4",
       "sourceName": "src/Challenge.sol",
       "solcConfig": {
         "settings": {
