@@ -1,0 +1,1 @@
+forge create --rpc-url http://beeeng-training-testnet.westus3.cloudapp.azure.com:8545/ --private-key 00f9554f0a97dfe6ea05526240d9ae991efee9983cb85827dd2a017cf0d70b9a src/ThreeSigmaNFT.sol:ThreeSigmaNFT

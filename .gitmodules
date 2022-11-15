@@ -7,3 +7,9 @@
 [submodule "ThreeSigma-Challenge/lib/openzeppelin-contracts"]
 	path = ThreeSigma-Challenge/lib/openzeppelin-contracts
 	url = https://github.com/openzeppelin/openzeppelin-contracts
+[submodule "Fetching Data & Scripting/AirDroppingUserNFT/lib/forge-std"]
+	path = Fetching Data & Scripting/AirDroppingUserNFT/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "Fetching Data & Scripting/AirDroppingUserNFT/lib/openzeppelin-contracts"]
+	path = Fetching Data & Scripting/AirDroppingUserNFT/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
