@@ -52,4 +52,12 @@ Challenge smart contract functions:
 | getRewardToken  |  This function is responsable for send the NFT's to the winner player.  | -public  | -------  |
 
 
+# Challenge Fetching Data & Scripting
+
+
+### Snapshot a NFT collection
+
+Utilizing the [Web3.py](https://web3py.readthedocs.io/en/v5/) library, take a snapshot of the owners of the [Bored Ape Yatch Club collection](https://etherscan.io/address/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d). The output should be a csv file with 2 columns: NFT id and the address corresponding to the following owner. Here is an example of the expected format. Try and build this in the most modular way possible (eg. so that it can work for any collection for any timestamp/block number)
+
+[Snapshot Solution](https://github.com/gusgraujo/ThreeSigma-Challenge/tree/main/Fetching%20Data%20%26%20Scripting)
 
